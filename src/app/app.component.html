@@ -72,18 +72,70 @@
   </div>
   <div class="row">
     <div class="col-12">
-      <mat-carousel  timings="250ms ease-in" [autoplay]="true" interval="30000" color="accent" maxWidth="auto" proportion="25"
-                slides="1" [loop]="false" [hideArrows]="false" [hideIndicators]="true" [useKeyboard]="true" [useMouseWheel]="false" orientation="ltr">
+      <mat-carousel  timings="250ms ease-in" [autoplay]="true" interval="3000" color="accent" maxWidth="auto" proportion="25"
+                slides="3" [loop]="false" [hideArrows]="false" [hideIndicators]="true" [useKeyboard]="true" [useMouseWheel]="false" orientation="ltr">
                 <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slides; let i = index" overlayColor="#00000040" [hideOverlay]="true">
-                    <div class="col-12">
-                        <div class="row">
-                          <div class="col-4 block-c">1</div>
-                          <div class="col-4 block-c">2</div>
-                          <div class="col-4 block-c">3</div>
+                        <div class="row c-box-row">
+                          <div class="col-4 carosel-box">
+                            <div class="row">
+                              <div class="cb-input"></div>
+                              <label class="col-4 offset-8 text-left cb-label">Active</label>
+                              <div class="col-12 text-left top-div">
+                                <div class="thin-label">Agreement Id: 12345</div>
+                                <div class="thic-label">HC234 Greenland</div>
+                                <div class="normal-label">FA Number: 123456</div>
+                              </div>
+                              <div class="col-12 text-left bottom-div">
+                                <div class="b-thin">Greenland</div>
+                                <div class="b-thic">13 North Road, Greenland</div>
+                                <div class="lease-date"><label>Lease Commencement Date </label><span class="date">1/1/2021</span></div>
+                                <div class="lease-date"><label>Lease Expiration Date</label><span class="date">12/12/2031</span></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-4 carosel-box carosel-box-active">
+                            <div class="row">
+                              <div class="cb-input"></div>
+                              <label class="col-4 offset-8 text-left cb-label">Active</label>
+                              <div class="col-12 text-left top-div">
+                                <div class="thin-label">Agreement Id: 12345</div>
+                                <div class="thic-label">HC234 Greenland</div>
+                                <div class="normal-label">FA Number: 123456</div>
+                              </div>
+                              <div class="col-12 text-left bottom-div">
+                                <div class="b-thin">Greenland</div>
+                                <div class="b-thic">13 North Road, Greenland</div>
+                                <div class="lease-date"><label>Lease Commencement Date </label><span class="date">1/1/2021</span></div>
+                                <div class="lease-date"><label>Lease Expiration Date</label><span class="date">12/12/2031</span></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-4 carosel-box">
+                            <div class="row">
+                              <div class="cb-input"></div>
+                              <label class="col-4 offset-8 text-left cb-label cb-label-ex">Expired</label>
+                              <div class="col-12 text-left top-div">
+                                <div class="thin-label">Agreement Id: 12345</div>
+                                <div class="thic-label">HC234 Greenland</div>
+                                <div class="normal-label">FA Number: 123456</div>
+                              </div>
+                              <div class="col-12 text-left bottom-div">
+                                <div class="b-thin">Greenland</div>
+                                <div class="b-thic">13 North Road, Greenland</div>
+                                <div class="lease-date"><label>Lease Commencement Date </label><span class="date">1/1/2021</span></div>
+                                <div class="lease-date"><label>Lease Expiration Date</label><span class="date">12/12/2031</span></div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
                 </mat-carousel-slide>
       </mat-carousel>
+    </div>
+    <div class="col-12 form-check slider-checkbox-div">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Unable to find my Agreement
+      </label>
     </div>
   </div>
   <div class="row">

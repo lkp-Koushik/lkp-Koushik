@@ -14,7 +14,7 @@
    padding: 0;
 }
 .back-btn i{
-    padding-right: 45px;
+    padding-right: 20px;
 }
 .back-btn:active, .back-btn:focus{
     background-color:transparent !important;
@@ -37,7 +37,7 @@
 .box-container{
     padding: 30px;
     background-color: #fff;
-    margin: 45px 138px;
+    margin: 45px 100px;
     box-shadow: #64646f33 0px 7px 29px 0px;
 }
 .btn-light, .btn-light:hover{
@@ -145,4 +145,99 @@
 }
 .extra-light{
     font-weight: 100 !important;
+}
+.c-box-row{
+    margin: 0 0 0 30px;
+    width: 100%;
+}
+.carosel-box{
+    min-height: 200px;
+    border: 1px solid #c4c3c3;
+    max-width: 30%;
+    margin: 0 15px;
+    padding: 0px 15px 25px 15px;
+}
+.carosel-box-active{
+    border: 1px solid #007bff !important;
+}
+.carosel-box-active .cb-input{
+    background-color:  #007bff;
+}
+.cb-input{
+    position: absolute;
+    border: 1px solid #dedede;
+    border-radius: 100%;
+    top: 6px;
+    left: 5px;
+    width: 27px;
+    height: 27px;
+}
+.cb-label{
+    padding-right: 0px;
+    color: #fff;
+    background-color: #33bc83;
+}
+.cb-label-ex{
+    background-color: #ff4800 !important;
+}
+.top-div{
+    margin: 10px 0 30px 0;
+}
+.thin-label{
+    font-size: 20px;
+    line-height: 20px;
+}
+.thic-label{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+}
+.normal-label{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.b-thin{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.b-thic{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #726b6b;
+    margin-bottom: 10px;
+}
+.lease-date{
+    width: 100%;
+    font-size: 16px;
+    line-height: 18px;
+}
+.lease-date label{
+    font-size: 16px;
+    line-height: 18px;
+    color: #726b6b;
+    margin-bottom: 0px;
+    min-width: 65%;
+}
+.date{
+    color: #007bff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+}
+.slider-checkbox-div{
+    margin-left: 4%;
+}
+.slider-checkbox-div .form-check-input{
+    height: 25px;
+    width: 45px;
+}
+.slider-checkbox-div .form-check-label{
+    font-size: 20px;
+    line-height: 30px;
+    color: #726b6b;
+    margin-left: 24px;
+    font-weight: 400;
 }
