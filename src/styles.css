@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.carousel-slide-content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.carousel > button:first-of-type{
+    left: -5px !important;
+}
+.carousel > button:last-of-type{
+    right: -5px !important;
+}
