@@ -241,3 +241,89 @@
     margin-left: 24px;
     font-weight: 400;
 }
+
+.static-box{
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    background-color: #fff;
+    margin: 30px 0 15px 30px;
+    padding: 15px !important;
+}
+.note{
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.note-1{
+    font-weight: 300;
+    font-size: 16px;
+}
+.note-1 a{
+    color: #007bff !important;
+    font-weight: 500 !important;
+}
+.filter-btn-row-static .btn{
+    margin: 0 10px;
+}
+.top-ip{
+    margin-left: 25%;
+}
+.filter-btn-row-static .note-1{
+    padding-right: 15px;
+}
+.tiles-row{
+    margin: 0 0 0 15px;
+    width: 100%;
+}
+.tiles-row .tile{
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    background-color: #fff;
+    padding: 0;
+    max-width: 31.5%;
+    margin: 15px 10px;
+}
+.tile-label{
+    padding: 0;
+}
+.tile-label label{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+.blue{
+    background-color: #007bff;
+    color: #fff;
+}
+.red{
+    background-color:red;
+    color: #fff;
+}
+.grey{
+    background-color:#cacaca;
+    color: #000000;
+}
+.tile .thin-label{
+ line-height: 26px;  
+ color: #726b6b; 
+}
+.tile .thic-label{
+    line-height: 28px;   
+}
+.tile .b-thic{
+    line-height: 24px;   
+}
+.ciop{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+.descr{
+    font-size: 16px;
+    color: #696464;
+    padding-bottom: 20px;
+}
+.descr p b{
+    color: #000;
+}
+.descr p a{
+    color: #007bff !important;
+    font-weight: 500;
+}
